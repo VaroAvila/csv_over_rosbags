@@ -12,6 +12,7 @@ To run the node execute the python3 program as you would normally do with any ot
 
 python3 amcl_pose_csv_writer.py /amcl_pose /path/to/output.csv
 
+
 As long as the program runs it will record any information received from the published topic, and won't record anything if it is not receiving any data. The data recording will be stopped only after finishing the program. 
 
 In case you modify the program, the /amcl_pose should be substituted by the name of the topic you want to record after adapting the code for your application (If you don't modify the program, you can still use a different topic name in the command line when executing the program as long as it is a topic of the type PoseWithCovarianceStamped from GeometryMsgs).
