@@ -1,6 +1,6 @@
 # csv_over_rosbags
 
-This is a simple ROS2 node created to address the lack of compatibility of rosbags to export data in certain applications by recording and storing ros topics' real-time data in a .csv file.
+This is a simple ROS2 node created to address the lack of compatibility of rosbags to export data in certain applications by recording and storing ROS2 topics' real-time data in a .csv file.
 
 In this case, it is customized to record position and orientation data (specifically, only some variables from the topic amcl_pose) from an agent in a Navigation 2 system and store the information in a .csv file, but it can be rewritten to record any other data from any topic being published on real-time while this node runs. 
 
